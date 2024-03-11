@@ -8,7 +8,7 @@
 
 body {
     padding: 1rem;
-    background: #222;
+    background:wheat;
     color: white;
     font-family: sans-serif;
 }
@@ -63,6 +63,7 @@ nav {
     width:50%;
     min-height: 15rem;
     text-align: center;
+    border: Dashed black
 }
 
 
@@ -74,17 +75,173 @@ nav {
     display: flex;
     margin:15px;
     font-size:2em;
-    padding: 6rem;
+    padding: 15rem;
     display: flex;
-    justify-content: center;
-
-
-
-
-
-
+    justify-content: space-around;
 
 }
+
+.big-box{
+    background-color: rgb(14, 170, 197);
+    width:80%;
+    min-height: 25rem;
+    text-align: center;
+    border: Dashed black
+}
+
+
+.small-box{
+    background-color: rgb(138, 74, 175);
+    width:50%;
+    min-height: 15rem;
+    text-align: center;
+    border: Dashed black
+
+}
+
+/******Main-Center*****/
+
+
+.main-center{
+    background-color: gray;
+    display: flex;
+    margin:15px;
+    font-size:2em;
+    padding: 15rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+.piccolo-box{
+    background-color: rgb(138, 74, 175);
+    width:50%;
+    min-height: 15rem;
+    text-align: center;
+    border: Dashed black
+}
+
+
+
+.grande-box{
+    background-color: rgb(14, 170, 197);
+    width:80%;
+    min-height: 25rem;
+    text-align: center;
+    border: Dashed black
+}
+
+
+/*******Main-end*****/
+
+.main-end{
+    background-color: rgb(8, 119, 32);
+    display: flex;
+    margin:15px;
+    font-size:2em;
+    padding: 35rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.row:nth-child(even){
+    background-color: lightgray;
+}
+
+
+
+/******Prima parte bassa*******/
+.main-end-end{
+    background-color:black;
+    display:flex;
+    margin:15px;
+    font-size:2em;
+    padding: 15rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+#links{
+    min-height: 200px;
+    width: 60%;
+    justify-content: center;
+    margin: 0px auto;
+
+}
+
+.chest{
+    background-color: rgb(16, 190, 176);
+    width:50%;
+    min-height: 25rem;
+    text-align: center;
+    border: Dashed white
+    
+    
+}
+
+.chest:nth-child(1){
+    background-color: rgb(197, 49, 226);
+    width:80%;
+    min-height: 15rem;
+    text-align: center;
+    border: Dashed white
+
+}
+
+
+/*Seconda parte footer*/
+
+
+footer{
+    background-color: rgb(16, 190, 176);
+    display: flex;
+    margin:15px;
+    font-size:2em;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.chest-end{
+    background-color: rgb(197, 49, 226);
+    height: fit-content;
+    width: 15%;
+    border: Dashed black
+}
+
+
+.chest-first{
+    background-color: rgb(197, 49, 226);
+    height: fit-content;
+    width: 15%;
+    border: Dashed black
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
