@@ -1,0 +1,114 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    padding: 1rem;
+    background: #222;
+    color: white;
+    font-family: sans-serif;
+}
+
+/************* HEADER **************/
+header {
+    background-color: rgb(128, 188, 236);
+    display: flex;
+    margin:15px;
+    font-size:2em;
+    padding: 1rem;
+    justify-content: center;
+}
+    
+.box1{
+    background-color: rgb(223, 158, 97);
+    height: fit-content;
+    width: 15%;
+    border: Dashed black
+}
+
+.box2{
+    background-color: rgb(223, 158, 97);
+    min-height: fit-content;
+    width: 50%;
+    text-align: center;
+    border: Dashed black
+}
+
+.box1{
+    background-color: rgb(223, 158, 97);
+    height: fit-content;
+    width: 15%;
+    border: Dashed black
+    
+}
+
+/********FLEX-CONTAINER*********/
+
+.flex-container{
+    background-color: rgb(38, 4, 189);
+    display: flex;
+    margin:15px;
+    font-size:2em;
+    padding: 6rem;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    background-color: violet;
+    width:50%;
+    min-height: 15rem;
+    text-align: center;
+}
+
+
+/********Main********/
+
+
+.main{
+    background-color: white;
+    display: flex;
+    margin:15px;
+    font-size:2em;
+    padding: 6rem;
+    display: flex;
+    justify-content: center;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
